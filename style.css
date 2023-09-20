@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    height: 100vh;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.MidContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Tail {
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+}
