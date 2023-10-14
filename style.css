@@ -1,27 +1,83 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: darkslategray;
-    height: 100vh;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height: 92vh;
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
 }
 
-.head {
+.heading {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .MidContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    gap: 16px;
 }
 
 
-.Tail {
+
+footer {
     display: flex;
     flex-direction: row;
-    width: 25px;
-    height: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    filter: invert(1);
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+.text1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border-radius: 40px;
+    width: 200px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border: 0cm;
+}
+
+button:hover {
+    background-color: violet;
+    color: white;
+}
+
+footer img:hover {
+    background-color: green;
+    border-radius: 100%;
+    padding: 3px;
 }
